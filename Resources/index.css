@@ -1,15 +1,15 @@
 Body {
     padding: 0;
     margin: 0;
-    background-color: black;
-    color: rgb(39, 182, 154);
+    background-color: rgb(1, 174, 134);
+    color: rgb(0, 0, 0);
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color:  rgb(1, 174, 134);
     
     
 }
@@ -20,11 +20,13 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
+    font-weight: bolder ;
+    font-size: 22px;
     text-decoration: none;
-    color: white;
+    
 }
 #homebuttons:hover {
     background-color: rgb(0, 85, 255);
@@ -36,7 +38,7 @@ li a {
 
 .topsection {
 
-    background-color: blue;
+    background-color: rgb(216, 248, 204);
     
     margin: 0;
    
@@ -77,8 +79,8 @@ a {
    border-style:solid;
    width: 300px;
    text-align: center;
-   font-size: 40px;
-   background-color: white;
+   font-size: 30px;
+   background-color: rgb(255, 225, 0);
    top: 75%;
    right: 42%;
    margin: auto;
@@ -89,12 +91,15 @@ a {
 #shuffle:hover {
     background-color: black;
     border-style:none;
+    color: white;
+    border-style: dotted;
+    border-color: white;
 
 }
 
 .allprojects {
     width: 320px;
-    height: 250px;
+    height: 200px;
     display: inline-block;
     border: 2px solid white;
     padding: 10px;
@@ -105,7 +110,7 @@ a {
 #access_project {
     border: 1px dashed white;
     padding: 0px;
-    background-color: white;
+    background-color: rgb(255, 225, 0);
     color: black;
 }
 #access_project:hover {
